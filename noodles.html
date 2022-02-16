@@ -7,24 +7,24 @@
     <meta property="og:url" content="https://gaoxi.us">
     <meta name="og:description" content="The professional homepage of Xi Gao.">
     <meta name="robots" content="noindex,nofollow">
-    <link rel='icon' href='../resources/img/logo/favicon/favicon_io/favicon.ico' type='image/x-icon' />
+    <link rel='icon' href='./resources/img/logo/favicon/favicon_io/favicon.ico' type='image/x-icon' />
     <!-- Stylesheets -->
     <link
         href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap"
         rel="stylesheet" type="text/css" />
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../resources/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="../resources/css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="../resources/css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="../resources/css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="../resources/css/magnific-popup.css" type="text/css" />
-    <link rel="stylesheet" href="../resources/css/custom.css" type="text/css" />
-    <link href="../resources/css/my_style.css" rel="stylesheet">
-    <link href="../resources/css/my.css" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="./resources/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="./resources/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="./resources/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="./resources/css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="./resources/css/custom.css" type="text/css" />
+    <link href="./resources/css/my_style.css" rel="stylesheet">
+    <link href="./resources/css/my.css" rel="stylesheet">
     <!-- JavaScripts -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../resources/js/plugins.min.js"></script>
+    <script src="./resources/js/plugins.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
         </script>
@@ -46,10 +46,10 @@
 						<div id="logo">
 							<a href="index.html" class="standard-logo"
 								data-dark-logo="img/logo/homepage_header_logo.png"><img
-									src="../resources/img/logo/homepage_header_logo.png" alt="Gaoxi Logo"></a>
+									src="./resources/img/logo/homepage_header_logo.png" alt="Gaoxi Logo"></a>
 							<a href="index.html" class="retina-logo"
 								data-dark-logo="img/logo/homepage_header_logo@2.png"><img
-									src="../resources/img/logo/homepage_header_logo@2.png" alt="Gaoxi Logo"></a>
+									src="./resources/img/logo/homepage_header_logo@2.png" alt="Gaoxi Logo"></a>
 						</div>
 						<!-- #logo end -->
 
@@ -70,7 +70,7 @@
 
 							<ul class="menu-container">
 								<li class="menu-item current">
-									<a class="menu-link " href="../views/index.html">
+									<a class="menu-link " href="../index.html">
 										PROJECT
 									</a>
 									<ul class="sub-menu-container">
@@ -78,18 +78,18 @@
 											<a class="menu-link">NOODLES</a>
 										</li>
 										<li class="menu-item ">
-											<a class="menu-link" href="../views/yarn.html">YARN</a>
+											<a class="menu-link" href="../yarn.html">YARN</a>
 										</li>
 										<li class="menu-item">
-											<a class="menu-link" href="../views/yoga.html">YOGA</a>
+											<a class="menu-link" href="../yoga.html">YOGA</a>
 										</li>
 										<li class="menu-item">
-											<a class="menu-link" href="../views/plant.html">PLANT</a>
+											<a class="menu-link" href="../plant.html">PLANT</a>
 										</li>
 									</ul>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="../views/about.html">
+									<a class="menu-link" href="../about.html">
 										ABOUT
 									</a>
 								</li>
@@ -114,8 +114,11 @@
 				<div class="heading-block center border-bottom-0">
 					<h2>Relationships Between Noodles</h2>
 					<span>
-						No panic, every stitch can be fixed
+						The raw data in csv format can be downloaded from <a href="./resources/data/noodles.csv" style="color: steelblue;">here</a>.
 					</span>
+                    <span>
+                        We have used <a href="https://webwebpage.github.io/" style="color: steelblue;">the webweb</a> to visualize the network.
+                    </span>                    
 				</div>
                 <div id="for_webweb"></div>
                 
@@ -2533,16 +2536,6 @@
                     'webweb-menu-left': {
                         'network': {
                             'subWidgets': {
-                                'networkSelect': {
-                                    'text': "Display data from ",
-                                    'type': 'select',
-                                    'functions': {
-                                        'change': changeNetwork,
-                                    },
-                                    'options': webweb.networkNames,
-                                    'value': webweb.display.networkName,
-                                    'inline': true,
-                                },
                                 'layerSelect': {
                                     'text': " layer ",
                                     'type': 'select',
@@ -2949,7 +2942,7 @@
     <!-- Go To Top -->
     <div id="gotoTop" class="icon-angle-up"></div>
     <!-- Footer Scripts -->
-    <script src="../resources/js/functions.js"></script>
+    <script src="./resources/js/functions.js"></script>
 </body>
 
 </html>
