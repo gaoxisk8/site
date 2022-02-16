@@ -1,0 +1,66 @@
+/* home_main */
+/* 在屏幕上 并且 最大的宽度是 800 像素  */
+/* max-width 小于等于 800 */
+html {
+    font-size: 16px;
+}
+    .navbar-brand img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container_s {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .container_p {
+        position: relative;
+        width: 100%;
+    }
+    .image_p {
+        opacity: 1.0;
+        transition: opacity 1s ease-in-out;
+        -moz-ransition: opacity 1s ease-in-out;
+        -webkit-transition: opacity 1s ease-in-out;
+    }
+    .overlay-box {
+        position: absolute;
+        opacity: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+    }
+
+    .container_p:hover .image_p {
+        opacity: 0.3;
+        transition: opacity 0.55s ease-in-out;
+        -moz-transition: opacity 0.55s ease-in-out;
+        -webkit-transition: opacity 0.55s ease-in-out;
+    }
+
+    .container_p:hover .overlay-box {
+        opacity: 1;
+    }
+
+    .text {
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+    
+
+    
+    @media screen and (max-width: 1200px) {
+        .project {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    @media screen and (min-width:1201px) {
+        .project_cover {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+   
