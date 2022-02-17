@@ -325,23 +325,11 @@ small { font-family: 'Lato', sans-serif; }
 	position: relative;
 	float: none;
 	width: 100%;
-	margin: 0 auto;
+	margin: auto;
 	background-color: #FFF;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* @media (min-width: 1200px) {
-	body:not(.stretched) #wrapper_noodles {
-		max-width: 1200px;
-	}
-} */
-
-@media (min-width: 1440px) {
-	body:not(.stretched) #wrapper_noodles {
-		max-width: 1440px;
-	}
 }
 
 .line,
@@ -16917,31 +16905,19 @@ label.checkbox { padding-left: 20px; }
 -----------------------------------------------------------------*/
 
 #webweb-center {
-	margin-left: 0 auto;
-	margin-right: 0 auto;
+	margin: auto;
 	background-color: white;
 	text-align: justify;
 	/* font-family: palatino, georgia, verdana, arial, sans-serif; */
 	width: 100%;
 	height: auto;
 }
-@media (min-width: 1200px) {
-	body:not(.stretched) #webweb-center {
-		max-width: 1200px;
-	}
-}
-
-@media (min-width: 1440px) {
-	body:not(.stretched) #webweb-center {
-		max-width: 1440px;
-	}
-}
 
 
 #webweb-menu {
 	/* font-size: 16px; */
 	padding: 15px;
-	/* flexbox stuff.. */
+	/* flexbox stuff */
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
@@ -16982,37 +16958,18 @@ label.checkbox { padding-left: 20px; }
 	overflow: hidden;
 }
 
-@media (min-width: 1200px) {
-	body:not(.stretched) #webweb-visualization-containerr {
-		max-width: 1200px;
-	}
-}
-
-@media (min-width: 1440px) {
-	body:not(.stretched) #webweb-visualization-container {
-		max-width: 1440px;
-	}
-}
-
-
-/* @media (max-width: 600px) {
-	#webweb-visualization-container {
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
-} */
-
-
 #webweb-visualization-container>svg {
 	border: solid 3px #f5f6fa;
 	display: block;
-	margin: 0 auto;
+	margin: auto;
+	
 }
 
 #webweb-visualization-container>canvas {
-	border: solid 3px #f5f6fa;
+	/* border: solid 3px #f5f6fa; */
 	display: block;
-	margin: 0 auto;
+	margin: auto;	 
+	width: 100%!important;
+    height: auto!important;
 }
 
