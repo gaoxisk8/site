@@ -16956,10 +16956,11 @@ label.checkbox { padding-left: 20px; }
 
 #webweb-visualization-container {
 	overflow: hidden;
+	
 }
 
 #webweb-visualization-container>svg {
-	border: solid 3px #f5f6fa;
+	/* border: solid 3px #f5f6fa; */
 	display: block;
 	margin: auto;
 	
@@ -16969,7 +16970,6 @@ label.checkbox { padding-left: 20px; }
 	/* border: solid 3px #f5f6fa; */
 	display: block;
 	margin: auto;	 
-	width: 100%!important;
-    height: auto!important;
+
 }
 
